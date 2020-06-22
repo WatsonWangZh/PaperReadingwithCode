@@ -40,11 +40,17 @@
 | 13 | [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) |XLNet<details><summary></summary></details>| NIPS 2019 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
 | 14 | [ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS](https://arxiv.org/pdf/1909.11942.pdf) |ALBERT<details><summary></summary></details>| ICLR  2020 | [TensorFlow](https://github.com/google-research/ALBERT)| [Note]()  |
 
-# Sequences Labeling
+# Seq2Seq
 | # | Title | KeyPoints | Conference/Publication | Implementation | Notes|
 |:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
-| 1 | [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/pdf/1603.01354.pdf)|CNN-BiLSTM-CRF<details><summary></summary></details>| ACL 2016 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
-| 2 | [Chinese NER Using Lattice LSTM](https://www.aclweb.org/anthology/P18-1144)|Lattice LSTM<details><summary></summary></details>| ACL 2018 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
+| 1 | [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://www.aclweb.org/anthology/D14-1179)|Seq2Seq| EMNLP 2014 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
+| 2 | [Sequence to Sequence Learning with Neural Networks](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)|Seq2Seq| NIPS 2014 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
+| 3 | [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf)|Seq2Seq with Attention| EMNLP 2014 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
+| 4 | [Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification](https://www.aclweb.org/anthology/P16-2034)|BiLSTM with Attention| ACL 2016 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
+| 5 | [Neural Machine Translation in Linear Time](https://arxiv.org/pdf/1610.10099v1.pdf)<br>[Slides](http://llcao.net/cu-deeplearning17/pp/class8_TranslationinLinearTime.pdf)|ByteNet| Computation and Language 2016 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
+| 6 | [Attention Is All You Need](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)|Transformer| NIPS 2017 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
+| 7 | [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/pdf/1603.01354.pdf)|CNN-BiLSTM-CRF<details><summary></summary></details>| ACL 2016 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
+| 8 | [Chinese NER Using Lattice LSTM](https://www.aclweb.org/anthology/P18-1144.pdf)|Lattice LSTM<details><summary></summary></details>| ACL 2018 | [TensorFlow]()<br>[Pytorch]() | [Note]()  |
 
 ## Text Classification
 | # | Title | KeyPoints | Conference/Publication | Implementation | Notes|
