@@ -31,7 +31,7 @@ A Personal Library.  Paper and books that I already read and will read, with not
   - Backbone
     - Image Classification
     - Object Detection
-    - Image Segmentation
+    - Semantic Segmentation
     - Image Retrival
     - Image Generalization
     - Super Resolution
@@ -245,6 +245,71 @@ A Personal Library.  Paper and books that I already read and will read, with not
 
 
 # Useful Resources
+## Toolkits
+* [THULAC](http://thulac.thunlp.org/) by 清华大学自然语言处理与社会人文计算实验室
+  * 一个高效的中文词法分析工具包
+  * 支持 c++、java、python
+* [NLPIR2016](http://ictclas.nlpir.org/) by 张华平
+  * 汉语分词系统: 分词标注、实体抽取、 词频统计、关键词提取、Word2vec、文本分类、情感分析、依存文法、繁简编码转换、自动注音、摘要提取
+  * 支持 c++、java、 python
+* [LTP](http://ltp.ai/) by 哈工大社会计算与信息检索研究中心
+  * 分词、词性标注、句法分析
+  * 支持 c++、windows、linux、mac
+* [CRFsuite](http://www.chokkan.org/software/crfsuite/) by Naoaki Okazaki
+  * A fast implementation of Conditional Random Fields(CRFs)
+  * 支持 c
+* [fastNLP](https://github.com/FudanNLP/fnlp) by 复旦大学自然语言处理组
+  * 信息检索、中文处理、结构化学习
+  * 支持 python
+* [hanNLP](https://github.com/hankcs/HanLP) by hankcs
+  * 中文分词、命名实体识别、关键词提取、自动摘要、短语提取、拼音转换、 简繁转换、文本推荐、依存句法分析
+  * 支持 Java
+* [OpenNLP](https://github.com/apache/opennlp) by Apache
+  * A machine learning based tookit for the processing of natural language text
+  * 支持 java
+* [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP) by The Stanford Natural Language Processing Group
+  * 集成了许多斯坦福的 NLP 工具，包括:词性标记、命名实体识别、语法、参数分析系统、情绪系统、自举模式学习、开放信息提取工具
+  * 支持 java
+* [LingPipe](http://www.alias-i.com/lingpipe/) by alias 公司
+  * 命名实体识别、聚类、词性标注、情感分类、句子检测、瓶邪检测、字符串匹配、关键词抽取、数据库文本挖掘、 断字识音、语言种类识别、词义消歧
+  * 支持 java
+* [MALLET](http://mallet.cs.umass.edu/) by UMASS AMHERST
+  * Machine Learning for Language toolkit, 提供统计学自然语言处理、 文档分类、聚类、主题建模、信息提 取和其它机器学习文本应用
+  * 支持 java
+* [CRF++](http://taku910.github.io/crfpp/) by Taku Kudo
+  * 序列标注
+  * 支持 c++
+* [HTK](http://htk.eng.cam.ac.uk/) by 剑桥大学工程学院
+  * 基于 HMM 模型的语音处理工具
+  * 支持 c++
+
+* [gensim](https://radimrehurek.com/gensim/) by open-source
+  * 分词、关键词提取、词性标注、并行分词、word2vec
+  * 支持 python
+* [jieba](https://github.com/fxsjy/jieba) by Sun Junyi
+  * 分词软件
+  * 支持 python、java、c++ 
+* [Ansj](https://github.com/NLPchina/ansj_seg) by 中国自然语言处理开源组织
+  * 中文分词、中文姓名识别、用户自定义词典、关键字提取、自动摘要、关键字标记 
+  * 支持 java
+* [NLTK](https://www.nltk.org/)
+  * 是一套基于 python 的自然语言处理工具集
+  * 支持 python
+* [TextBlob](https://github.com/sloria/TextBlob) by Steven Loria
+  * 情感分析、词性标注、翻译等
+* [Spacy](https://github.com/explosion/spaCy) by Explosion AI
+  * 命名实体识别、序列标记、功能强大、支持二十多种语言
+  * 支持 python、cpython
+* [word2vec](https://code.google.com/archive/p/word2vec/) by Mikolov(Google)
+  * 词向量训练工具  
+  * 支持 c
+* [fastText](https://github.com/facebookresearch/fastText) by Mikolov(FAIR)
+  * 词向量训练工具
+  * 支持 c++ 
+* [glove](https://nlp.stanford.edu/projects/glove/) by Stanford
+  * 词向量训练工具
+  * 支持 c++ 
+
 ## Terms Explanation
 * [Turing Test](http://www.wikiwand.com/en/Turing_test)
 
@@ -270,3 +335,4 @@ A Personal Library.  Paper and books that I already read and will read, with not
 ## Websites
 * [PaperswithCode](https://paperswithcode.com/)
 * [SOTA.ai](https://www.stateoftheart.ai/)
+
