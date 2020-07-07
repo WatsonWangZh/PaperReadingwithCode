@@ -1,60 +1,84 @@
 # Reading with Code
-A Personal Library.  Paper and books that I already read and will read, with notes and code.
+<div align="center">
+    <img src="picture/rwc.png" width="259" height="195">
+    
+A Personal Library.  
+Paper and books that I already read and will read, with notes and code.  
+![License](https://img.shields.io/badge/License-MIT-green.svg) ![Update](https://img.shields.io/badge/Update-Daily-green.svg)
+</div>
 
 ## Category
+- [Conference Helper](#conference-helper)
+- [NLP](#nlp)
+  - [Backbone](#nlp-backbone)
+    - [Network](#network)
+    - [Discussion](#discussion)
+  - [Embedding](#embedding)
+    - [Text Embedding](#text-embedding)
+      - [Word Embedding](#word-embedding)
+      - [Sentence Embedding](#sentence-embedding)
+      - [Context Embedding](#context-embedding)
+      - [Paragraph Embedding](#paragraph-embedding)
+    - [Knowledge Graph Embedding](#knowledge-graph-embedding)
+      - [Framework:](#framework)
+      - [Node (Vertex) Embedding](#node-vertex-embedding)
+        - [Translation Based](#translation-based)
+        - [Random Walk Based](#random-walk-based)
+      - [Graph Embedding](#graph-embedding)
+  - [Pre-trained Language Model](#pre-trained-language-model)
+  - [Mechanism](#mechanism)
+    - [Attention](#attention)
+    - [Memorization](#memorization)
+  - [Task Classification](#task-classification)
+    - [Sequence Labeling](#sequence-labeling)
+    - [Text Classification](#text-classification)
+    - [Sentence Pair Relationship](#sentence-pair-relationship)
+      - [Sentence Matching]()
+    - [Generalization](#generalization)
+      - [Machine Translation](#machine-translation)
+- [CV](#cv)
+  - [Origin and Pioneer](#origin-and-pioneer)
+  - [ Backbone](#cv-backbone)
+    - [Image Recoginization](#image-recoginization)
+    - [Image Segmentation](#image-segmentation)
+    - [Object Detection](#object-detection)
 
-- NLP
-  - Backbone 
-    - Network
-    - Discussion
-  - Embedding
-    - Text Embedding
-    - Graph Embedding
-  - Pre-trained Language Model
-  - Mechanism
-    - Attention
-    - Memorization 
-  - Task Classification 
-    - Sequence Labeling
-    - Text Classification
-    - Sentence Pair Relationship
-    - Generalization
-  - Deep Information Extraction
-    - Named Entity Recognition
-    - Relation Extraction
-    - Event Extraction
-     
-- CV
-  - Origin and Pioneer
-    - CAT'S VISUAL CORTEX 
-    - Neocognitron 
-  - Backbone
-    - Image Classification
-    - Object Detection
-    - Semantic Segmentation
-    - Image Retrival
-    - Image Generalization
-    - Super Resolution
-    - Key Point Recognition
+- [General Elements](#general-elements)
+  - [Activation Function](#activation-function)
+  - [Loss Function](#loss-function)
+  - [Optimizer](#optimizer)
+  - [Training Tricks](#training-tricks)
+    - [Initialization](#initialization)
+    - [Middle Layer Operation](#middle-layer-operation)
+    - [Out Layer Operation](#out-layer-operation)
+    - [Gradient Operation](#gradient-operation)
+
+- [Graph Neural Network](#graph-neural-network)
+  - [Framework:](#framework-1)
+  - [Survey](#survey)
+  - [Spatial Domain](#spatial-domain)
+  - [Spectral Domain](#spectral-domain)
+
+- [Machine Learning](#machine-learning)
+  - [Ensemble Learning](#ensemble-learning)
+
+- [System](#system)
+
+- [Useful Resources](#useful-resources)
+  - [Toolkits](#toolkits)
+  - [Terms Explanation](#terms-explanation)
+  - [Articles](#articles)
+  - [Books](#books)
+  - [Course](#course)
+  - [Websites](#websites)
   
-- Training Elements
-  - Activation Function
-  - Loss Function
-  - Optimize Methods
-  - Practical Techique
-- Graph Neural Network
-  - Survey
-  - Spatial Domain
-  - Spectral Domain
-- ML 
-  - Ensemble Learning
-- System
-  - Google's Bigtable, Mapreduce and File System
-
-- Other Useful Resourse
+# Conference Helper
+* [conferences-with-ccf](https://jackietseng.github.io/conference_call_for_paper/conferences-with-ccf.html)
+* [aideadlin](https://aideadlin.es/?sub=NLP,ML,DM)
+* [Conference List](http://www.conferencelist.info/upcoming.html)
 
 # NLP
-## Backbone
+## NLP Backbone 
 ### Network
 * LSTM, Neural Computation 1997. [LONG SHORT-TERM MEMORY](https://www.bioinf.jku.at/publications/older/2604.pdf)   
 * GRU, SSST-8 Workshop 2014. [On the Properties of Neural Machine Translation: Encoder–Decoder Approaches](https://arxiv.org/pdf/1409.1259.pdf)
@@ -75,26 +99,30 @@ A Personal Library.  Paper and books that I already read and will read, with not
 * Generative vs Discriminative arXiv 2017 [Generative and Discriminative Text Classification with Recurrent Neural Networks](https://arxiv.org/pdf/1703.01898.pdf)
   
 ## Embedding
-### [Text Embedding]()
+### [Text Embedding](./Notes/NLP/TextEmbedding.md)
 #### Word Embedding
-* NNLM JMLR 2003 [A Neural Probabilistic Language Model](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) [code]()  
-* RNNLM InterSpeech 2010 [Recurrent neural network based language model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf) [code]()  
-* word2vec Architecture ICLR 2013 [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) [code]()  
-* word2vec Tricks NIPS 2013 [Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) [code]()
-* GloVe EMNLP 2014 [GloVe: Global Vectors for Word Representation](https://www.aclweb.org/anthology/D14-1162.pdf) [code]()  
-* char2wordvec EMNLP 2015 [Finding Function in Form: Compositional Character Models for Open Vocabulary Word Representation](https://arxiv.org/pdf/1508.02096.pdf) [code]()   
+* LSA(LSI), Journal of the American Society for Information Science, 1990. [Indexing by Latent Semantic Analysis](http://lsa.colorado.edu/papers/JASIS.lsi.90.pdf)
+* NNLM JMLR 2003 [A Neural Probabilistic Language Model](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) 
+* RNNLM InterSpeech 2010 [Recurrent neural network based language model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)   
+* Huang Model ACL 2012 [Improving Word Representations via Global Context and Multiple Word Prototypes](https://nlp.stanford.edu/pubs/HuangACL12.pdf)  
+* word2vec Architecture ICLR 2013 [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) 
+* word2vec Tricks NIPS 2013 [Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) 
+* GloVe EMNLP 2014 [GloVe: Global Vectors for Word Representation](https://www.aclweb.org/anthology/D14-1162.pdf)  
+* MSSG EMNLP 2014 [Efficient Non-parametric Estimation of Multiple Embeddings per Word in Vector Space](https://www.aclweb.org/anthology/D14-1113.pdf)
+* char2wordvec EMNLP 2015 [Finding Function in Form: Compositional Character Models for Open Vocabulary Word Representation](https://arxiv.org/pdf/1508.02096.pdf)    
 #### Sentence Embedding
-* RAE NIPS 2011 [Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection](https://papers.nips.cc/paper/4204-dynamic-pooling-and-unfolding-recursive-autoencoders-for-paraphrase-detection.pdf) [code]()  
-* EMNLP 2012 [Semantic Compositionality through Recursive Matrix-Vector Spaces](https://ai.stanford.edu/~ang/papers/emnlp12-SemanticCompositionalityRecursiveMatrixVectorSpaces.pdf) [code]() [resources]() 
-* ACL 2014 [A Convolutional Neural Network for Modelling Sentences](http://mirror.aclweb.org/acl2014/P14-1/pdf/P14-1062.pdf) [code]() 
+* RAE NIPS 2011 [Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection](https://papers.nips.cc/paper/4204-dynamic-pooling-and-unfolding-recursive-autoencoders-for-paraphrase-detection.pdf)   
+* MV-RNN EMNLP 2012 [Semantic Compositionality through Recursive Matrix-Vector Spaces](https://ai.stanford.edu/~ang/papers/emnlp12-SemanticCompositionalityRecursiveMatrixVectorSpaces.pdf) [code]() [resources]() 
+* TextCNN ACL 2014 [A Convolutional Neural Network for Modelling Sentences](http://mirror.aclweb.org/acl2014/P14-1/pdf/P14-1062.pdf) [code]() 
 * Skip-Thought NIPS 2015 [Skip-Thought Vectors](https://papers.nips.cc/paper/5950-skip-thought-vectors.pdf) [code]()
+* FastText EACL 2017 [Bag of Tricks for Efficient Text Classification](https://arxiv.org/pdf/1607.01759.pdf)[code]()
 * Quick-Thought ICLR 2018 [AN EFFICIENT FRAMEWORK FOR LEARNING SENTENCE REPRESENTATIONS](https://arxiv.org/pdf/1803.02893.pdf) [code]()   
 #### Context Embedding
 * context2vec CoNLL 2016 [context2vec: Learning Generic Context Embedding with Bidirectional LSTM](https://www.aclweb.org/anthology/K16-1006.pdf) [code]()  
 #### Paragraph Embedding
 * Doc2vec PMLR 2014 [Distributed Representations of Sentences and Documents](https://arxiv.org/pdf/1405.4053.pdf) [code]()  
 
-### [Knowledge Graph Embedding]()
+### [Knowledge Graph Embedding](.)
 #### Framework:   
   * [PyTorch-BigGraph](https://github.com/facebookresearch/PyTorch-BigGraph)
 #### Node (Vertex) Embedding
@@ -152,7 +180,7 @@ A Personal Library.  Paper and books that I already read and will read, with not
 * HAN ACL 2016[Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf)[code]() 
 * FastText EACL 2017 [Bag of Tricks for Efficient Text Classification](https://arxiv.org/pdf/1607.01759.pdf)[code]() 
 * TextGCN AAAI 2019 [Graph Convolutional Networks for Text Classification](https://arxiv.org/pdf/1809.05679.pdf)[code]() 
-### Sentence Pair Relationship
+### [Sentence Pair Relationship]()
 * DSSM CIKM 2013 [Learning Deep Structured Semantic Models for Web Search using Clickthrough Data](https://posenhuang.github.io/papers/cikm2013_DSSM_fullversion.pdf)
 ### [Generalization]()
 #### Machine Translation
@@ -165,12 +193,12 @@ A Personal Library.  Paper and books that I already read and will read, with not
 
 # CV
 
-## Origin and Pioneer
+## [Origin and Pioneer](.)
 * CAT'S VISUAL CORTEX, J Physiol 1962. []
 * Neocognitron, Kunihiko Fukushima 1980. [Neocognitron: A Self-Organizing Neural Network Model for a Mechanism of Visual Pattern Recognition](https://www.semanticscholar.org/paper/Neocognitron%3A-A-Self-Organizing-Neural-Network-for-Fukushima-Miyake/9b2541b8d8ca872149b4dabd2ccdc0cacc46ebf5) 
   * [Kunihiko Fukushima](http://personalpage.flsi.or.jp/fukushima/index-e.html)
   
-## Backbone
+## CV Backbone
 ### Image Recoginization
 * LeNet-5, Lecun, IEEE 1998. [GradientBased Learning Applied to Document Recognition](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
 * AlexNet, NIPS 2012. [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
@@ -179,7 +207,6 @@ A Personal Library.  Paper and books that I already read and will read, with not
 * ResNet, CVPR 2016. [Deep Residual Learning for Image Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 * DenseNet, CVPR 2017. []
 * SE-Net, CVPR 2017.
-
 ### Image Segmentation
 ### Object Detection
 * YOLOv1 CVPR 2016 [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/pdf/1506.02640.pdf) 
@@ -189,11 +216,11 @@ A Personal Library.  Paper and books that I already read and will read, with not
   * [DarkNet](https://pjreddie.com/darknet/)
 * YOLOv5 No paper, Not Official. 2020 [code](https://github.com/ultralytics/yolov5)
 
-# General
+# General Elements
 ## Activation Function
 ## Loss Function
 ## Optimizer
-## Training Techique
+## Training Tricks
 ### Initialization
 * Xavier Initialization, AISTATS 2010. [Understanding the difficulty of training deep feedforward neural networks](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
 * Kaiming Initialization, ICCV 2015. [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/pdf/1502.01852.pdf)
@@ -211,7 +238,7 @@ A Personal Library.  Paper and books that I already read and will read, with not
 * Gradient Clipping, ICML 2013. [On the difficulty of training Recurrent Neural Networks](https://arxiv.org/pdf/1211.5063.pdf)
 * Gradient Clipping Explanation, ICLR 2020. [WHY GRADIENT CLIPPING ACCELERATES TRAINING: A THEORETICAL JUSTIFICATION FOR ADAPTIVITY](https://arxiv.org/pdf/1905.11881.pdf)
 
-## [Graph Neural Network]()
+## [Graph Neural Network](.)
 ### Framework:  
   * [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric) 
 ### Survey
@@ -228,7 +255,7 @@ A Personal Library.  Paper and books that I already read and will read, with not
 * GCN ICLR 2017 [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://arxiv.org/pdf/1609.02907.pdf)  [code]() 
 
 
-# Machine Learning
+# [Machine Learning](.)
 ## Ensemble Learning
 * XGBoost SIGKDD 2016 [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf)
   * [Documentation](https://xgboost.readthedocs.io/en/latest/index.html)
@@ -312,6 +339,11 @@ A Personal Library.  Paper and books that I already read and will read, with not
 
 ## Terms Explanation
 * [Turing Test](http://www.wikiwand.com/en/Turing_test)
+* [Distributional hypothesis](https://en.wikipedia.org/wiki/Distributional_semantics#Distributional_hypothesis)
+* [Distributional Representation vs Distributed Representation](https://zhuanlan.zhihu.com/p/70767034)
+* [Distributed Representation vs Local Representation](https://deepai.org/machine-learning-glossary-and-terms/distributed-representation)
+* [Google Machine Learning Glossary](https://developers.google.cn/machine-learning/glossary)
+
 
 ## Articles
 * [常用的 Normalization 方法：BN、LN、IN、GN](https://www.chainnews.com/articles/678463364097.htm)
@@ -325,6 +357,8 @@ A Personal Library.  Paper and books that I already read and will read, with not
 * [深度学习花书](https://github.com/exacity/deeplearningbook-chinese)
 * [Dive into Deep Learning](http://d2l.ai/)
 * [可解释的机器学习--黑盒模型可解释性理解指南](https://github.com/MingchaoZhu/InterpretableMLBook)
+* [Neural Network Methods for NLP - Yoav Goldberg](./Books/NeuralNetworkMethods4NLP.pdf)
+* [Introduction to Graph Neural Network](./Books/Intro2GNNs.pdf)
 
 ## Course
 * [吴恩达深度学习](https://www.deeplearning.ai/)
