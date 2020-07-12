@@ -19,6 +19,7 @@ Paper and books that I already read and will read, with notes and code.
       - [Sentence Embedding](#sentence-embedding)
       - [Context Embedding](#context-embedding)
       - [Paragraph Embedding](#paragraph-embedding)
+      - [Relation Embedding](#relation-embedding)
     - [KG Embedding](#knowledge-graph-embedding)
       - [Framework:](#framework)
       - [Node (Vertex) Embedding](#node-vertex-embedding)
@@ -82,19 +83,19 @@ Paper and books that I already read and will read, with notes and code.
 # NLP
 ## NLP Backbone 
 ### Network
-* LSTM, Neural Computation 1997. [LONG SHORT-TERM MEMORY](https://www.bioinf.jku.at/publications/older/2604.pdf)   
-* GRU, SSST-8 Workshop 2014. [On the Properties of Neural Machine Translation: Encoder–Decoder Approaches](https://arxiv.org/pdf/1409.1259.pdf)
-* TextCNN, ACL 2014. [Convolutional Neural Networks for Sentence Classification](https://www.aclweb.org/anthology/D14-1181.pdf)[code]() 
-* C-LSTM, arXiv 2015. [A C-LSTM Neural Network for Text Classification](https://arxiv.org/pdf/1511.08630.pdf)
-* TextRCNN, AAAI 2015. [Recurrent Convolutional Neural Networks for Text Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552)
-* TextRNN, IJCAI 2016. [Recurrent Neural Network for Text Classification with Multi-Task Learning](https://arxiv.org/pdf/1605.05101.pdf)
-* TextHAN, ACL 2016. [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf)
-* DMN, ICML 2016. [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing](https://arxiv.org/pdf/1506.07285.pdf)
-* EntNet, ICLR 2017. [TRACKING THE WORLD STATE WITH RECURRENT ENTITY NETWORKS](https://arxiv.org/pdf/1612.03969.pdf)
-* DGCNN, ICML 2017. [Convolutional Sequence to Sequence Learning](https://arxiv.org/pdf/1705.03122.pdf)
-* TextDPCNN, ACL 2017. [Deep Pyramid Convolutional Neural Networks for Text Categorization](https://ai.tencent.com/ailab/media/publications/ACL3-Brady.pdf)
-* Transformer 
-* TextGCN, AAAI 2019. [Graph Convolutional Networks for Text Classification](https://arxiv.org/pdf/1809.05679.pdf)[code]() 
+* LSTM Neural Computation 1997 [LONG SHORT-TERM MEMORY](https://www.bioinf.jku.at/publications/older/2604.pdf)   
+* GRU SSST-8 Workshop 2014 [On the Properties of Neural Machine Translation: Encoder–Decoder Approaches](https://arxiv.org/pdf/1409.1259.pdf)
+* TextCNN ACL 2014 [Convolutional Neural Networks for Sentence Classification](https://www.aclweb.org/anthology/D14-1181.pdf)[code]() 
+* C-LSTM arXiv 2015 [A C-LSTM Neural Network for Text Classification](https://arxiv.org/pdf/1511.08630.pdf)
+* TextRCNN AAAI 2015 [Recurrent Convolutional Neural Networks for Text Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552)
+* TextRNN IJCAI 2016 [Recurrent Neural Network for Text Classification with Multi-Task Learning](https://arxiv.org/pdf/1605.05101.pdf)
+* TextHAN ACL 2016 [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf)
+* DMN ICML 2016 [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing](https://arxiv.org/pdf/1506.07285.pdf)
+* EntNet ICLR 2017 [TRACKING THE WORLD STATE WITH RECURRENT ENTITY NETWORKS](https://arxiv.org/pdf/1612.03969.pdf)
+* DGCNN ICML 2017 [Convolutional Sequence to Sequence Learning](https://arxiv.org/pdf/1705.03122.pdf)
+* TextDPCNN ACL 2017 [Deep Pyramid Convolutional Neural Networks for Text Categorization](https://ai.tencent.com/ailab/media/publications/ACL3-Brady.pdf)
+* Transformer NIPS 2017 [Attention Is All You Need](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
+* TextGCN AAAI 2019 [Graph Convolutional Networks for Text Classification](https://arxiv.org/pdf/1809.05679.pdf)[code]() 
 ### Discussion
 * LSTM vs GRU NIPS Workshop 2014 [Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling](https://arxiv.org/pdf/1412.3555.pdf)
 * CNN Hyperparameters arXiv 2015 [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1510.03820.pdf)
@@ -124,6 +125,10 @@ Paper and books that I already read and will read, with notes and code.
 * context2vec CoNLL 2016 [context2vec: Learning Generic Context Embedding with Bidirectional LSTM](https://www.aclweb.org/anthology/K16-1006.pdf)  
 #### Paragraph Embedding
 * Doc2vec PMLR 2014 [Distributed Representations of Sentences and Documents](https://arxiv.org/pdf/1405.4053.pdf)   
+#### Relation Embedding
+* GloRE NAACL 2018 [Global Relation Embedding for Relation Extraction](https://www.aclweb.org/anthology/N18-1075.pdf)
+#### Entity Embedding
+* SEE AAAI 2018 [SEE: Syntax-aware Entity Embedding for Neural Relation Extraction](https://arxiv.org/pdf/1801.03603.pdf)
 
 ### [Knowledge Graph Embedding](.)
 #### Framework:   
@@ -147,27 +152,29 @@ Paper and books that I already read and will read, with notes and code.
 
 
 ## [Pre-trained Language Model]()
+* [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/pdf/2003.08271.pdf)
 * NNLM JMLR 2003 [A Neural Probabilistic Language Model](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)   
-* RNNLM InterSpeech 2010 [Recurrent neural network based language model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)   
+* RNNLM InterSpeech 2010 [Recurrent neural network based language model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
+* ULMFit ACL 2018 [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/pdf/1801.06146.pdf)
 * ELMO NAACL 2018 [Deep contextualized word representations](https://arxiv.org/pdf/1802.05365.pdf) 
 * GPT 1.0 InterSpeech 2018 [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)  
 * BERT InterSpeech 2018 [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)  
 * Transformer-XL ACL 2019 [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf)   
 * GPT 2.0 OpenAI Report 2019 [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) [Slides](https://pdfs.semanticscholar.org/41f9/45f59bd0d345d4e355fb72110524f6fdffdb.pdf)   
 * ERNIE (Tsinghua) ACL 2019 [ERNIE: Enhanced Language Representation with Informative Entities](https://arxiv.org/pdf/1905.07129.pdf)   
-* ERNIE 1.0 arXiv 2019 [ERNIE: Enhanced Representation through Knowledge Integration](https://arxiv.org/pdf/1904.09223.pdf)   
-* ERNIE 2.0 AAAI 2020 [ERNIE 2.0: A Continual Pre-Training Framework for Language Understanding](https://arxiv.org/pdf/1907.12412.pdf)   
+* ERNIE 1.0 arXiv 2019 [ERNIE: Enhanced Representation through Knowledge Integration](https://arxiv.org/pdf/1904.09223.pdf)      
 * MASS ICML 2019 [MASS: Masked Sequence to Sequence Pre-training for Language Generation](https://arxiv.org/pdf/1905.02450.pdf)  
 * UniLM arXiv 2019 [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/pdf/1905.03197.pdf) 
-* XLNet NIPS 2019 [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) [code]()  
+* XLNet NIPS 2019 [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf)  
+* ERNIE 2.0 AAAI 2020 [ERNIE 2.0: A Continual Pre-Training Framework for Language Understanding](https://arxiv.org/pdf/1907.12412.pdf)
 * ALBERT ICLR 2020 [ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS](https://arxiv.org/pdf/1909.11942.pdf) [code](https://github.com/google-research/ALBERT)  
+* ELECTRA ICLR 2020 [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/pdf/2003.10555.pdf) [code](https://github.com/google-research/electra)  
 
 ## Mechanism
 ### Attention
 * Transformer NIPS 2017 [Attention Is All You Need](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) 
 * Attention is not Explanation NAACL 2019 [Attention is not Explanation](https://arxiv.org/pdf/1902.10186.pdf)
 * Attention is not not Explanation EMNLP 2019 [Attention is not not Explanation](https://arxiv.org/pdf/1908.04626.pdf)
-
 ### Memorization
 * E2EMN NIPS 2015 [End-To-End Memory Networks](https://arxiv.org/pdf/1503.08895.pdf)
 * DMN ICML 2016 [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing](https://arxiv.org/pdf/1506.07285.pdf)
@@ -177,17 +184,22 @@ Paper and books that I already read and will read, with notes and code.
 * BiLSTM-CRF arXiv 2015 [Bidirectional LSTM-CRF Models for Sequence Tagging](https://arxiv.org/pdf/1508.01991.pdf)  
 * CNN-BiLSTM-CRF arXiv 2016 [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/pdf/1603.01354.pdf) 
 * Lattice LSTM ACL 2018 [Chinese NER Using Lattice LSTM](https://www.aclweb.org/anthology/P18-1144.pdf)
+
 ### [Text Classification]()
 * CNN ACL 2014 [Convolutional Neural Networks for Sentence Classification](https://www.aclweb.org/anthology/D14-1181.pdf)
 * char CNN NIPS 2015 [Character-level Convolutional Networks for Text Classification](https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf)
 * HAN ACL 2016[Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf)
 * FastText EACL 2017 [Bag of Tricks for Efficient Text Classification](https://arxiv.org/pdf/1607.01759.pdf)
 * TextGCN AAAI 2019 [Graph Convolutional Networks for Text Classification](https://arxiv.org/pdf/1809.05679.pdf)
+
 ### [Sentence Pair Relationship]()
 #### Sentence Similarity
 * DSSM CIKM 2013 [Learning Deep Structured Semantic Models for Web Search using Clickthrough Data](https://posenhuang.github.io/papers/cikm2013_DSSM_fullversion.pdf)
+* Siamese RNN ACL 2016 [Learning Text Similarity with Siamese Recurrent Networks](https://www.aclweb.org/anthology/W16-1617.pdf)
+* 
 #### Natural Language Inference
 * ESIM ACL 2017 [Enhanced LSTM for Natural Language Inference](https://arxiv.org/pdf/1609.06038.pdf)
+
 ### [Generalization]()
 #### Machine Translation
 * EMNLP 2014 [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://www.aclweb.org/anthology/D14-1179)  
@@ -197,8 +209,6 @@ Paper and books that I already read and will read, with notes and code.
 #### Text Summarization
 * EMNLP 2019 [Text Summarization with Pretrained Encoders](https://arxiv.org/pdf/1908.08345.pdf)
  
-
-
 # CV
 ## [Origin and Pioneer](.)
 * CAT'S VISUAL CORTEX, J Physiol 1962. []
@@ -222,6 +232,12 @@ Paper and books that I already read and will read, with notes and code.
 * YOLOv4 CVPR 2020 [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/pdf/2004.10934.pdf)
   * [DarkNet](https://pjreddie.com/darknet/)
 * YOLOv5 No paper released, only code provided. 2020 [code](https://github.com/ultralytics/yolov5)
+
+# Reinforcement Learning
+* 值函数 动作函数 状态函数
+* Sara Q-Learning， DQN， 
+* AlphaGo Nature 2016 [Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961)
+* AlphaZero arXiv 2017 [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm](https://arxiv.org/pdf/1712.01815.pdf)
 
 # General Elements
 ## Activation Function
@@ -265,7 +281,7 @@ Paper and books that I already read and will read, with notes and code.
 # [Machine Learning](.)
 ## Ensemble Learning
 * XGBoost SIGKDD 2016 [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf)
-  * [Documentation](https://xgboost.readthedocs.io/en/latest/index.html)
+  * [Documentation](https://xgboost.readthedocs.io/en/latest/index.html) [Slides](https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf)
 * LightGBM NIPS 2017 [LightGBM: A Highly Efficient Gradient Boosting Decision Tree]()
   * [Documentation](https://lightgbm.readthedocs.io/en/latest/index.html)
 * CatBoost Yandex 2017 [CatBoost: unbiased boosting with categorical features](https://arxiv.org/pdf/1706.09516.pdf)
@@ -372,8 +388,12 @@ Paper and books that I already read and will read, with notes and code.
 * [李宏毅2020机器学习深度学习(完整版)国语](https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=17396144567049451218)
 * [STAT 157 at UC Berkeley](https://courses.d2l.ai/berkeley-stat-157/syllabus.html) 
   * [video](https://www.youtube.com/playlist?list=PLZSO_6-bSqHQHBCoGaObUljoXAyyqhpFW)
+* [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
+* [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
+* [CS224U: Natural Language Understanding](http://web.stanford.edu/class/cs224u/)
+* [CS520: Knowledge Graphs](https://web.stanford.edu/class/cs520/)
 
-## Websites
+## High Quality Paper Websites
 * [PaperswithCode](https://paperswithcode.com/)
 * [SOTA.ai](https://www.stateoftheart.ai/)
 
