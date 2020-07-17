@@ -9,6 +9,7 @@ Paper and books that I already read and will read, with notes and code.
 
 ## Category
 - [Conference Helper](#conference-helper)
+- [Competition Websites](#competition-websites)
 - [NLP](#nlp)
   - [Backbone](#nlp-backbone)
     - [Network](#network)
@@ -41,7 +42,7 @@ Paper and books that I already read and will read, with notes and code.
       - [Text Summarization](#text-summarization)
 - [CV](#cv)
   - [Origin and Pioneer](#origin-and-pioneer)
-  - [ Backbone](#cv-backbone)
+  - [Backbone](#cv-backbone)
     - [Image Recoginization](#image-recoginization)
     - [Image Segmentation](#image-segmentation)
     - [Object Detection](#object-detection)
@@ -80,6 +81,19 @@ Paper and books that I already read and will read, with notes and code.
 * [AI Deadline](https://aideadlin.es/?sub=NLP,ML,DM)
 * [Upcoming Conference List](http://www.conferencelist.info/upcoming.html)
 
+# Competition Websites
+* [Kaggle](https://www.kaggle.com/)
+* [TIANCHI天池](https://tianchi.aliyun.com/competition/gameList/activeList)
+* [DataCastle](https://www.dcjingsai.com/v2/index.html)
+* [DataFountain](https://www.datafountain.cn/)
+* [biendata](https://www.biendata.xyz/)
+* [kesci](https://www.kesci.com/home/competition)
+
+# GPU Platform
+* [Colab](https://colab.research.google.com)
+* [Google Cloud](https://cloud.google.com/)
+* [AWS](https://aws.amazon.com/console/)
+
 # NLP
 ## NLP Backbone 
 ### Network
@@ -93,9 +107,11 @@ Paper and books that I already read and will read, with notes and code.
 * DMN ICML 2016 [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing](https://arxiv.org/pdf/1506.07285.pdf)
 * EntNet ICLR 2017 [TRACKING THE WORLD STATE WITH RECURRENT ENTITY NETWORKS](https://arxiv.org/pdf/1612.03969.pdf)
 * DGCNN ICML 2017 [Convolutional Sequence to Sequence Learning](https://arxiv.org/pdf/1705.03122.pdf)
-* TextDPCNN ACL 2017 [Deep Pyramid Convolutional Neural Networks for Text Categorization](https://ai.tencent.com/ailab/media/publications/ACL3-Brady.pdf)
+* DPCNN ACL 2017 [Deep Pyramid Convolutional Neural Networks for Text Categorization](https://ai.tencent.com/ailab/media/publications/ACL3-Brady.pdf)
 * Transformer NIPS 2017 [Attention Is All You Need](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
-* TextGCN AAAI 2019 [Graph Convolutional Networks for Text Classification](https://arxiv.org/pdf/1809.05679.pdf)[code]() 
+* RNN-Capsule WWW 2018 [Sentiment Analysis by Capsules](https://dl.acm.org/doi/pdf/10.1145/3178876.3186015)
+* TextGCN AAAI 2019 [Graph Convolutional Networks for Text Classification](https://arxiv.org/pdf/1809.05679.pdf)
+* Enhanced-RCNN WWW 2020 [Enhanced-RCNN: An Efficient Method for Learning Sentence Similarity](https://dl.acm.org/doi/abs/10.1145/3366423.3379998)
 ### Discussion
 * LSTM vs GRU NIPS Workshop 2014 [Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling](https://arxiv.org/pdf/1412.3555.pdf)
 * CNN Hyperparameters arXiv 2015 [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1510.03820.pdf)
@@ -111,7 +127,9 @@ Paper and books that I already read and will read, with notes and code.
 * Huang Model ACL 2012 [Improving Word Representations via Global Context and Multiple Word Prototypes](https://nlp.stanford.edu/pubs/HuangACL12.pdf)  
 * word2vec Architecture ICLR 2013 [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) 
 * word2vec Tricks NIPS 2013 [Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) 
+    * [code](https://github.com/tmikolov/word2vec) 
 * GloVe EMNLP 2014 [GloVe: Global Vectors for Word Representation](https://www.aclweb.org/anthology/D14-1162.pdf)  
+    * [code](https://github.com/stanfordnlp/GloVe)
 * MSSG EMNLP 2014 [Efficient Non-parametric Estimation of Multiple Embeddings per Word in Vector Space](https://www.aclweb.org/anthology/D14-1113.pdf)
 * char2wordvec EMNLP 2015 [Finding Function in Form: Compositional Character Models for Open Vocabulary Word Representation](https://arxiv.org/pdf/1508.02096.pdf)    
 #### Sentence Embedding
@@ -120,6 +138,7 @@ Paper and books that I already read and will read, with notes and code.
 * TextCNN ACL 2014 [A Convolutional Neural Network for Modelling Sentences](http://mirror.aclweb.org/acl2014/P14-1/pdf/P14-1062.pdf) 
 * Skip-Thought NIPS 2015 [Skip-Thought Vectors](https://papers.nips.cc/paper/5950-skip-thought-vectors.pdf) 
 * FastText EACL 2017 [Bag of Tricks for Efficient Text Classification](https://arxiv.org/pdf/1607.01759.pdf)
+    * [code](https://github.com/facebookresearch/fastText)
 * Quick-Thought ICLR 2018 [AN EFFICIENT FRAMEWORK FOR LEARNING SENTENCE REPRESENTATIONS](https://arxiv.org/pdf/1803.02893.pdf)    
 #### Context Embedding
 * context2vec CoNLL 2016 [context2vec: Learning Generic Context Embedding with Bidirectional LSTM](https://www.aclweb.org/anthology/K16-1006.pdf)  
@@ -186,6 +205,9 @@ Paper and books that I already read and will read, with notes and code.
 * Lattice LSTM ACL 2018 [Chinese NER Using Lattice LSTM](https://www.aclweb.org/anthology/P18-1144.pdf)
 
 ### [Text Classification]()
+* TF-IDF
+* LDA主题模型
+* LSI主题模型
 * CNN ACL 2014 [Convolutional Neural Networks for Sentence Classification](https://www.aclweb.org/anthology/D14-1181.pdf)
 * char CNN NIPS 2015 [Character-level Convolutional Networks for Text Classification](https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf)
 * HAN ACL 2016[Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf)
@@ -235,14 +257,24 @@ Paper and books that I already read and will read, with notes and code.
 
 # Reinforcement Learning
 * 值函数 动作函数 状态函数
-* Sara Q-Learning， DQN， 
+* Sara, Q-Learning， DQN， 
 * AlphaGo Nature 2016 [Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961)
 * AlphaZero arXiv 2017 [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm](https://arxiv.org/pdf/1712.01815.pdf)
 
 # General Elements
 ## Activation Function
+* ReLU
+* ELU
+* GELU
 ## Loss Function
+* Focal Loss CVPR 2017 [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
+* Dice Loss ACL 2020 [Dice Loss for Data-imbalanced NLP Tasks](https://www.aclweb.org/anthology/2020.acl-main.45.pdf)
 ## Optimizer
+* SGD
+* RMSProp
+* Momentum
+* Adam
+* Radam
 ## Training Tricks
 ### Initialization
 * Xavier Initialization, AISTATS 2010. [Understanding the difficulty of training deep feedforward neural networks](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
@@ -278,15 +310,20 @@ Paper and books that I already read and will read, with notes and code.
 * GCN ICLR 2017 [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://arxiv.org/pdf/1609.02907.pdf)   
 
 
-# [Machine Learning](.)
-## Ensemble Learning
+# [Ensemble Learning](.)
+## Bagging
+## Boosting 
 * XGBoost SIGKDD 2016 [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf)
   * [Documentation](https://xgboost.readthedocs.io/en/latest/index.html) [Slides](https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf)
-* LightGBM NIPS 2017 [LightGBM: A Highly Efficient Gradient Boosting Decision Tree]()
+  * [Code](https://github.com/dmlc/xgboost)
+* LightGBM NIPS 2017 [LightGBM: A Highly Efficient Gradient Boosting Decision Tree](https://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree.pdf)
   * [Documentation](https://lightgbm.readthedocs.io/en/latest/index.html)
+  * [Code](https://github.com/microsoft/LightGBM)
 * CatBoost Yandex 2017 [CatBoost: unbiased boosting with categorical features](https://arxiv.org/pdf/1706.09516.pdf)
   * [Documentation](https://catboost.ai/docs/concepts/about.html)
+  * [Code](https://github.com/catboost/catboost)
 * [XGBoost, LightGBM or CatBoost — which boosting algorithm should I use?](https://medium.com/riskified-technology/xgboost-lightgbm-or-catboost-which-boosting-algorithm-should-i-use-e7fda7bb36bc)
+## Stacking
 
 # System
 * GFS SOSP 2003[The Google File System](https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/gfs-sosp2003.pdf)
@@ -332,7 +369,6 @@ Paper and books that I already read and will read, with notes and code.
 * [HTK](http://htk.eng.cam.ac.uk/) by 剑桥大学工程学院
   * 基于 HMM 模型的语音处理工具
   * 支持 c++
-
 * [gensim](https://radimrehurek.com/gensim/) by open-source
   * 分词、关键词提取、词性标注、并行分词、word2vec
   * 支持 python
@@ -344,6 +380,12 @@ Paper and books that I already read and will read, with notes and code.
   * 支持 java
 * [NLTK](https://www.nltk.org/)
   * 是一套基于 python 的自然语言处理工具集
+  * 支持 python
+* [FoolNLTK](https://github.com/rockyzhengwu/FoolNLTK)
+  * 中文处理工具包
+  * 支持 python
+* [pkuseg](https://github.com/lancopku/pkuseg-python)
+  * 一个多领域中文分词工具包
   * 支持 python
 * [TextBlob](https://github.com/sloria/TextBlob) by Steven Loria
   * 情感分析、词性标注、翻译等
@@ -359,6 +401,10 @@ Paper and books that I already read and will read, with notes and code.
 * [glove](https://nlp.stanford.edu/projects/glove/) by Stanford
   * 词向量训练工具
   * 支持 c++ 
+
+## Resources
+* [中文常用停用词表](https://github.com/goto456/stopwords)
+* [Stopwords for 50 languages in JSON format](https://github.com/6/stopwords-json)
 
 ## Terms Explanation
 * [Turing Test](http://www.wikiwand.com/en/Turing_test)
@@ -382,10 +428,12 @@ Paper and books that I already read and will read, with notes and code.
 * [可解释的机器学习--黑盒模型可解释性理解指南](https://github.com/MingchaoZhu/InterpretableMLBook)
 * [Neural Network Methods for NLP - Yoav Goldberg](./Books/NeuralNetworkMethods4NLP.pdf)
 * [Introduction to Graph Neural Network](./Books/Intro2GNNs.pdf)
+* [Deep Learning in Natural Language Processing]()
 
 ## Course
 * [吴恩达深度学习](https://www.deeplearning.ai/)
 * [李宏毅2020机器学习深度学习(完整版)国语](https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=17396144567049451218)
+* [李宏毅《深度学习人类语言处理》国语(2020)](https://www.bilibili.com/video/av94310884)
 * [STAT 157 at UC Berkeley](https://courses.d2l.ai/berkeley-stat-157/syllabus.html) 
   * [video](https://www.youtube.com/playlist?list=PLZSO_6-bSqHQHBCoGaObUljoXAyyqhpFW)
 * [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
