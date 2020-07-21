@@ -9,7 +9,9 @@ Paper and books that I already read and will read, with notes and code.
 
 ## Category
 - [Conference Helper](#conference-helper)
+- [Paper Tools](#paper-tools)
 - [Competition Websites](#competition-websites)
+- [GPU Platform](#gpu-platform)
 - [NLP](#nlp)
   - [Backbone](#nlp-backbone)
     - [Network](#network)
@@ -77,9 +79,39 @@ Paper and books that I already read and will read, with notes and code.
   - [Websites](#websites)
   
 # Conference Helper
-* [Conferences-with-ccf](https://jackietseng.github.io/conference_call_for_paper/conferences-with-ccf.html)
-* [AI Deadline](https://aideadlin.es/?sub=NLP,ML,DM)
+* [WikiCFP](http://www.wikicfp.com/cfp/)
+* [Guide2Research](http://www.guide2research.com/)
+* [EasyChair Smart CFP](https://easychair.org/cfp/)
+* [IEEE Conferences](https://www.ieee.org/conferences/index.html)
 * [Upcoming Conference List](http://www.conferencelist.info/upcoming.html)
+* [AI Deadline](https://aideadlin.es)
+* [Conferences-with-ccf](https://jackietseng.github.io/conference_call_for_paper/conferences-with-ccf.html)
+* [AMiner](https://www.aminer.cn/ranks/conf?type=ccf)
+* [Call4Papers](http://123.57.137.208/index.html)
+
+# Paper Tools
+## Search Engine
+* [Semantic Scholar](https://www.semanticscholar.org/)
+* [Google Scholar](https://scholar.google.com/)
+* [dblp](https://dblp.uni-trier.de/)
+* [ACM DL](https://dl.acm.org/)
+* [IEEE Xplore DL](https://ieeexplore.ieee.org/Xplore/home.jsp)
+* [Elsevier ScienceDirect](https://www.sciencedirect.com/)
+* [Springer](https://www.springer.com/gp)
+* [Wiley Online Lib](https://onlinelibrary.wiley.com/)
+* [SCI-HUB](https://sci-hub.se/)
+
+## Reference Management 
+* [Mendeley](https://www.mendeley.com/)
+* [Papers 3](https://www.papersapp.com/)
+* [Endnote](https://endnote.com/)
+* [Zotero](https://www.zotero.org/)
+## Writing
+* [Overleaf](https://www.overleaf.com/)
+## Grammar Checker
+* [WitheSmoke](https://www.whitesmoke.com/)
+* [Linggle](https://linggle.com/)
+* [Grammarly](https://www.grammarly.com/)
 
 # Competition Websites
 * [Kaggle](https://www.kaggle.com/)
@@ -186,11 +218,13 @@ Paper and books that I already read and will read, with notes and code.
 * UniLM arXiv 2019 [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/pdf/1905.03197.pdf) 
 * XLNet NIPS 2019 [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf)  
 * ERNIE 2.0 AAAI 2020 [ERNIE 2.0: A Continual Pre-Training Framework for Language Understanding](https://arxiv.org/pdf/1907.12412.pdf)
+* RoBERTa ICLR 2020 [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf) 
 * ALBERT ICLR 2020 [ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS](https://arxiv.org/pdf/1909.11942.pdf) [code](https://github.com/google-research/ALBERT)  
 * ELECTRA ICLR 2020 [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/pdf/2003.10555.pdf) [code](https://github.com/google-research/electra)  
 
 ## Mechanism
 ### Attention
+* origin attention ICML 2015[Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044.pdf)
 * Transformer NIPS 2017 [Attention Is All You Need](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) 
 * Attention is not Explanation NAACL 2019 [Attention is not Explanation](https://arxiv.org/pdf/1902.10186.pdf)
 * Attention is not not Explanation EMNLP 2019 [Attention is not not Explanation](https://arxiv.org/pdf/1908.04626.pdf)
@@ -242,10 +276,11 @@ Paper and books that I already read and will read, with notes and code.
 * LeNet-5, Lecun, IEEE 1998. [GradientBased Learning Applied to Document Recognition](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
 * AlexNet, NIPS 2012. [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 * GoogLeNet, CVPR 2015. [Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
-* VGG-Net, ICLR 2015. [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
+* VGG-16, ICLR 2015. [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
 * ResNet, CVPR 2016. [Deep Residual Learning for Image Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 * DenseNet, CVPR 2017. []
 * SE-Net, CVPR 2017.
+* EfficientNet
 ### Image Segmentation
 ### Object Detection
 * YOLOv1 CVPR 2016 [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/pdf/1506.02640.pdf) 
@@ -269,6 +304,8 @@ Paper and books that I already read and will read, with notes and code.
 ## Loss Function
 * Focal Loss CVPR 2017 [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
 * Dice Loss ACL 2020 [Dice Loss for Data-imbalanced NLP Tasks](https://www.aclweb.org/anthology/2020.acl-main.45.pdf)
+* Triplet Loss
+* Quadruplet Loss 
 ## Optimizer
 * SGD
 * RMSProp
