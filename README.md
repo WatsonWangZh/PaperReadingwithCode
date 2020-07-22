@@ -38,7 +38,7 @@ Paper and books that I already read and will read, with notes and code.
     - [Text Classification](#text-classification)
     - [Sentence Pair Relationship](#sentence-pair-relationship)
       - [Sentence Similarity](#sentence-similarity)
-      - [Natural Language Inference](./Papers/NLP/TaskClassification/SentencePairRelationship/NaturalLanguageInference)
+      - [Natural Language Inference](#natural-language-inference)
     - [Generalization](#generalization)
       - [Machine Translation](#machine-translation)
       - [Text Summarization](#text-summarization)
@@ -250,17 +250,21 @@ Paper and books that I already read and will read, with notes and code.
 
 ### [Sentence Pair Relationship]()
 #### Sentence Similarity
-* DSSM CIKM 2013 [Learning Deep Structured Semantic Models for Web Search using Clickthrough Data](https://posenhuang.github.io/papers/cikm2013_DSSM_fullversion.pdf)
+* SV-DSSM CIKM 2013 [Learning Deep Structured Semantic Models for Web Search using Clickthrough Data](https://posenhuang.github.io/papers/cikm2013_DSSM_fullversion.pdf)
+* SV-CNN-DSSM CIKM 2014 [A Latent Semantic Model with Convolutional-Pooling Structure for Information Retrieval](https://www.iro.umontreal.ca/~lisa/pointeurs/ir0895-he-2.pdf)
+* SV-LSTM-DSSM IEEE/ACM Transactions on Audio, Speech, and Language Processing 2016 [Deep Sentence Embedding Using Long Short-Term Memory Networks: Analysis and Application to Information Retrieval](https://arxiv.org/pdf/1502.06922.pdf)
+* MV-DSSM IW3C2 2015 [A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/frp1159-songA.pdf)
 * Siamese RNN ACL 2016 [Learning Text Similarity with Siamese Recurrent Networks](https://www.aclweb.org/anthology/W16-1617.pdf)
-* 
 #### Natural Language Inference
 * ESIM ACL 2017 [Enhanced LSTM for Natural Language Inference](https://arxiv.org/pdf/1609.06038.pdf)
 
 ### [Generalization]()
 #### Machine Translation
+* BLEU ACL 2002 [BLEU: a Method for Automatic Evaluation of Machine Translation](https://www.aclweb.org/anthology/P02-1040.pdf)
 * EMNLP 2014 [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://www.aclweb.org/anthology/D14-1179)  
-* NIPS 2014 [Sequence to Sequence Learning with Neural Networks](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) 
-* EMNLP 2014 [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf)  
+* DeepNMT NIPS 2014 [Sequence to Sequence Learning with Neural Networks](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) 
+* AttNMT EMNLP 2014 [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf)  
+* GNMT arXiv 2016 [Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](https://arxiv.org/pdf/1609.08144.pdf)
 * ByteNet arXiv 2017 [Neural Machine Translation in Linear Time](https://arxiv.org/pdf/1610.10099v1.pdf) [Slides](http://llcao.net/cu-deeplearning17/pp/class8_TranslationinLinearTime.pdf) 
 #### Text Summarization
 * EMNLP 2019 [Text Summarization with Pretrained Encoders](https://arxiv.org/pdf/1908.08345.pdf)
